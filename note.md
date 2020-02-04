@@ -62,6 +62,14 @@ git remote add orgin git@github.com:username/repositoryname.git //添加远程�
 git push -u origin master // 第一次推送到远程，关联本地和远程库
 git push origin master //推动到远程
 ```
+## 分支系统
+- 创建分支
+```shell
+git checkout -b dev //创建并切换分支
+git branch dev      //创建分支
+git checkout dev    //切换分支
+git branch          //查看分支
+```
 # 生成证书
 - 在window 上生成证书
 ```shell
