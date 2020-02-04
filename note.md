@@ -69,6 +69,10 @@ git checkout -b dev //创建并切换分支
 git branch dev      //创建分支
 git checkout dev    //切换分支
 git branch          //查看分支
+git merge dev       //合并分支
+git branch -d dev   //删除分支
+git switch  -c dev  //创建并切换分支
+git switch dev      //切换分支
 ```
 # 生成证书
 - 在window 上生成证书
